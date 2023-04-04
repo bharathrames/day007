@@ -10,7 +10,6 @@ request.onload=function(){
 // var res=result.filter((ele)=>ele.region==="Asia")
 //    console.log(res)
 
-
 //ANS 2,
 // var res=result.filter((ele)=>ele.population<200000);
 // console.log(res);  
@@ -20,14 +19,17 @@ request.onload=function(){
 //     console.log(result[i].name,result[i].capital,result[i].flag)
 // }
 
-//ANS 4
+//ANS 4,
 //   var res=result.filter((ele)=>ele.population).reduce((a,b)=>a+b.population,0)
-   
-//     console.log(res)
+//   console.log(res)
 
 // ANS 5.
-// var res=result.filter((ele)=>ele.currencies.code==="USD")
-//     console.log(res)
+//     var res=result.filter((x)=>{
+//   for(var i in x.currencies){
+//     if (x.currencies[i].code==="USD")
+//     return true;
+//   }
+// });
 
 
 
