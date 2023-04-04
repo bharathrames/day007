@@ -29,8 +29,9 @@ request.onload=function(){
 //     if (x.currencies[i].code==="USD")
 //     return true;
 //   }
-// });
-
+// }).map((ele)=>ele.name)
+     //console.log(res)
+}
 
 
 
